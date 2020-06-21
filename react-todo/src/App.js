@@ -77,17 +77,18 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div className="app">
-      <header>
-        <form id="to-do-form" onSubmit={this.addItem}>
-          <input type="text" placeholder="Enter Text" value={this.state.currentItem.text} onChange={this.handleInput} />
-          <button type="submit"> Add </button>
-        </form>
-      </header>
-      <ListItems items={this.state.items}
-        deleteItem={this.deleteItem}
-        setUpdate={this.setUpdate}></ListItems>
-    </div>
+    return (
+      <div className="app">
+        <header>
+          <form id="to-do-form" onSubmit={this.addItem}>
+            <input type="text" placeholder="Enter Text" value={this.state.currentItem.text} onChange={this.handleInput} />
+            <button type="submit"> Add </button>
+          </form>
+        </header>
+        <ListItems items={this.state.items}
+          deleteItem={this.deleteItem}
+          setUpdate={this.setUpdate}></ListItems>
+      </div>
     );
   }
 }

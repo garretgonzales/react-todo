@@ -34,3 +34,7 @@ body {
   font-weight: bolder;
   color: whitesmoke;
 }
+
+h1 {
+  size: 200px;
+}

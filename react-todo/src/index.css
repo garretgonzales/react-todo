@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: aliceblue;
+  font-size: 70px;
+  position: relative;
+  padding-left: 30%;
+}
