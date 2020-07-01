@@ -20,6 +20,8 @@
 
 - [x] User should see animation on removal.
 
+- [x] Deploy via gh-pages.
+
 ***
 
 #### Dependencies:
@@ -45,4 +47,4 @@
 
 ***
 
-**Deployed @** garretgonzales.github.io/react-todo/
+**Deployed@** garretgonzales.github.io/react-todo/
