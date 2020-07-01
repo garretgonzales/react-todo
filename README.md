@@ -24,7 +24,12 @@
 
 #### Dependencies:
 
-- **FlipMove** | Module built to animate lists using css.
+
+- **create-react-app** | A React toolchain used for creating single-page applications.
+
+*https://github.com/facebook/create-react-app*
+
+- **FlipMove** | Module built to animate lists using CSS.
 
 *https://www.npmjs.com/package/react-flip-move*
 
