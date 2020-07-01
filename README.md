@@ -10,6 +10,17 @@
 
 ------
 
+#### MVP:
+
+- [x] User should be able to add a task.
+- [x] User should be able to remove a task.
+- [x] User should be able edit a task.
+
+- [x] User should see animation on add.
+
+- [x] User should see animation on removal.
+
+-----
 
 #### Dependencies:
 
